@@ -221,8 +221,8 @@
 		
 		\begin{tabular}{cccc|l}
 		1\coeur/\pique & - & 3\trefle & - &\\
-		3\carreau & - & 3\coeur/\pique && Pas de courte\\
-		&& 3\pique/4\trefle/4\carreau/4\coeur && Couleur de la courte\\
+		3\coeur/3\pique/3SA &&&& Les courtes dans l'ordre\\
+		4\trefle/4\carreau &&&& Controle sans courte\\
 		\end{tabular}\\\\
 
 		\SSection{2SA Forcing de manche}
@@ -281,10 +281,9 @@
 		\SSection{Défense contre les Michaëls}
 		Le principe général est le suivant :
 		\begin{itemize}
-		\item 2SA : Fitté limite
-		\item Cue bid de la moins cher : La couleure non nommée, FM
+		\item Cue bid de la moins chère : La couleure non nommée, FM
 		\item Cue bid de la plus chère : Fittée, FM
-		\item Autre : Naturel\\
+		\item Autre : Naturel NF\\
 		\end{itemize}
 		
 \Chap{Ouverture mineure}
@@ -322,7 +321,7 @@
 		\begin{tabular}{cccc|l}
 		1\trefle/\carreau & - & 2\trefle/\carreau & - &\\
 		2SA & - & 3\trefle & - &\\
-		3\carreau & - & 3\coeur/\pique && Singleton \pique/\coeur\\	
+		3\carreau & - & 3\coeur/\pique && Singleton \coeur/\pique\\	
 		&& 3SA && Singleton \carreau/\trefle\ (Autre mineur)\\
 		&& 4\trefle/\carreau && Singleton \carreau/\trefle\ (Autre mineur) ; Chelemisant\\
 		\end{tabular}\\\\
@@ -372,14 +371,6 @@
 
 		\begin{tabular}{cccc|l}
 		1\carreau & - & 2\trefle & - &\\
-		2\carreau & - & 2\coeur/2\pique & - &\\
-		2SA &&&& Arrêt \pique/\coeur\ sans fit\\
-		3\coeur/3\pique &&&& Fit \coeur/\pique\ sans l'arrêt \pique/\coeur\\
-		3SA &&&& Fit \coeur/\pique\ avec l'arrêt \pique/\coeur\\
-		\end{tabular}\\\\
-
-		\begin{tabular}{cccc|l}
-		1\carreau & - & 2\trefle & - &\\
 		2SA & - & 3\trefle && Relais pour 3\carreau\ (Puis même développement que le SMI)\\
 		&& 3\carreau/3\coeur && 4\coeur/4\pique\ (Puis même développement que le SMI)\\
 		&& 3\pique && Proposition de chelem à \trefle\ (3SA décourageant)\\
@@ -410,10 +401,17 @@
 		
 		\SSection{En cas d'intervention}
 		En cas d'intervention par contre, les développements sont inchangés.\\
-		En cas d'intervention à la couleur, on joue le Cachalot, mais les développements sont inchangés.\\
 		
 		On joue rodrigue dans les séquences 1\trefle/\carreau\ 1\pique\ et 1\carreau\ 2\trefle.\\
-	
+		
+		\SSection{1\trefle\ 2\trefle\ \& 1\trefle\ 2\carreau}
+		On joue les michaëls précisés sauf :\\
+		
+		\begin{tabular}{cccc|l}
+		1\trefle & - & 2\trefle && Bicolore majeur\\
+		&& 2\carreau && Barrage naturel\\
+		\end{tabular}\\\\
+
 \Chap{Intervention}
 	\Section{Sur 1SA Fort}
 	\underline{En 2$^{ème}$ position}
