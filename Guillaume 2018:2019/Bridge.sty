@@ -1,0 +1,31 @@
+% Langues
+\NeedsTeXFormat{LaTeX2e}\usepackage[frenchb]{babel}\usepackage[utf8x]{inputenc}\usepackage[T1]{fontenc}
+\usepackage{lmodern}\usepackage{array}\usepackage{color}\usepackage{pdfpages}
+\usepackage{titlesec}\usepackage{titletoc}\usepackage{geometry}\geometry{margin={2cm, 1.5cm}}
+
+% Titre & Toc
+\newcommand*{\Titre}[2]{\begin{center}\rule{5cm}{0.5mm}\\\textbf{#1}\end{center}%
+\begin{flushright}\textit{#2}\end{flushright}\begin{center}\raisebox{2.5ex}{\rule{5cm}{0.5mm}}\end{center}}
+\newcommand*{\TOC}{\tableofcontents\newpage}
+
+\newcommand*{\Chap}[1]{{\centering\chapter[#1]{\textcolor{red}{\underline{#1}}}}}
+\titlecontents{chapter}[1em]{\addvspace{0.5em plus 0em}\bfseries}{}{}{\hfill\contentspage}[\addvspace{0pt}]
+\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter~}{0em}{\filcenter}
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}
+\renewcommand*{\thechapter}{\textcolor{red}{\Roman{chapter}]}}
+
+\newcommand*{\Section}[1]{\section[#1]{\textcolor{red}{\underline{\textcolor{black}{#1}}}}}
+\titlecontents{section}[2em]{\addvspace{0.2em plus 0em}}{}{}{\dotfill\contentspage}[\addvspace{0pt}]
+\titleformat{\section}[hang]{\normalfont\Large\bfseries}{}{0em}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+\newcommand*{\SSection}[1]{\subsection[#1]{\underline{#1}}}
+\titlecontents{subsection}[3em]{}{}{}{}[\addvspace{0pt}]
+\titleformat{\subsection}[hang]{\normalfont\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{5em}{0pt}{0pt}
+
+% Bridge
+\newcommand{\pique}{$\spadesuit$}
+\newcommand{\carreau}{$\diamondsuit$}
+\newcommand{\coeur}{$\heartsuit$}
+\newcommand{\trefle}{$\clubsuit$}
