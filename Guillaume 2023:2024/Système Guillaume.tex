@@ -783,9 +783,10 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 
 	\Section{Sur 1\trefle\ Fort}
 	\begin{tabular}{cccc|l}
-	1\trefle & -  & X && Bicolore de même Couleure\\
-	&& 1\carreau && Bicolore de même Rang\\
-	&& 1SA && Bicolore Mélangé\\
+	1\trefle & -  & X && Bicolore majeur\\
+	&& 1SA && Bicolore \coeur\trefle\\
+	&& 2\trefle/2\carreau/2\coeur/2\pique && Bicolores (couleur + celle d'au dessus)\\
+	&& 2SA && Bicolore \carreau\pique\\
 	\end{tabular}\\\\
 
 	\Section{Michaëls}
@@ -832,8 +833,14 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 	&&& 3\carreau\ & Fitté au moins limite par 4\\
 	&&& 3\coeur\ & Barrage\\
 	\end{tabular}\\
-	Cela fonctionne également en cas d'enchère (ou de X) du numéro 3\\
-	1\carreau\ 1\coeur\ X XX sera un honneur à \coeur\\
+	Cela fonctionne également en cas d'enchère (ou de X) du numéro 3, avec la nuance\\
+
+	\begin{tabular}{cccc|l}
+	1\carreau & 1\pique\  & X & 2\coeur\ & Fit \pique\ avec Honneur \pique\\
+	&&& 2\pique & Fit \pique\ sans Honneur \pique\\
+	&&& XX & Honneur \pique\ sans le fit\\
+	\end{tabular}\\
+	La distinction n'existe pas pour un fit \coeur.\\
 
 	\begin{tabular}{cccc|l}
 	1\trefle & 1\carreau/1\coeur  & - & 1\pique\ & (Dès 4\pique)\\
