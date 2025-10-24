@@ -205,10 +205,12 @@
 
 	\begin{tabular}{cccc|l}
 	2\pique & - & 2SA && Relais descriptif\\
-	&& 3\trefle/4\trefle/5\trefle && Passe ou Corrige\\
+	&& 3\trefle/4\trefle && Passe ou Corrige\\
 	&& 3\coeur && 6\coeur\ forcing\\
 	&& 3\pique/4\pique && Barrage\\
 	&& 3SA && Pour jouer\\
+	&& 4SA && Nomme ta mineure\\
+	&& 5\trefle/5\carreau && Naturel\\
 	\end{tabular}\\\\
 	
 	Même principe sur 2\coeur\ avec les enchères:
@@ -427,7 +429,7 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 		2SA & - & 3\trefle & - &\\
 		3\carreau & - & 3\coeur/\pique && Singleton \coeur/\pique\\	
 		&& 3SA && Singleton \carreau/\trefle\ (Autre mineur)\\
-		&& 4\trefle/\carreau && Singleton \carreau/\trefle\ (Autre mineur) ; Chelemisant\\
+		&& 4\trefle && Singleton \carreau/\trefle\ (Autre mineur) ; Chelemisant\\
 		\end{tabular}\\\\
 
 		\begin{tabular}{cccc|l}
@@ -499,12 +501,24 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 		&& 4\trefle/4\carreau && Naturel chelemisant\\
 		\end{tabular}\\\\
 
-\newpage
 	\Section{Autres conventions}
 		\SSection{Check back stayman}
 		Le check back stayman se fait dans l'autre mineure.
 
 		Avec les deux majeurs, on répondra 3\coeur\ sur le check back stayman (3\carreau\ est naturel).\\
+
+
+		\SSection{1\trefle/\carreau\ 1Majeur\ 3SA}
+		\begin{tabular}{cccc|l}
+		1\trefle & - & 1\coeur/1\pique & - &\\
+		3SA &&&& 18-19 régulier avec le fit \coeur/\pique\ (5422, 4432, 4333)\\
+		4\coeur/4\pique &&&& 6\trefle\ et 4\coeur/\pique\ trop faible pour dire 4\trefle\\
+		\end{tabular}\\\\
+
+		\SSection{2SA Modérateur}
+		Joué sur les séquences 1\trefle/\carreau\ 1\coeur/\pique,  mais pas 1\trefle/\carreau\ 1SA\\
+
+\newpage
 
 		\SSection{Convention Bessis}
 		\begin{tabular}{cccc|l}
@@ -563,6 +577,27 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 		&& 3\pique && Main limite avec 6\pique\\
 		&& 3SA && Proposition entre 3SA et 4\pique\\
 		\end{tabular}\\\\
+
+ 		\SSection{Quatrième forcing}
+		\begin{tabular}{cccc|l}
+		1\trefle & - & 1\coeur & - &\\
+		1\pique & - & 2\carreau & - & Quatrième forcing\\
+		2\coeur &&&& 3\coeur\ 12-14 (Parfois 2\coeur\ sans autre enchère si le fit est collé)\\
+		2SA &&&& Arrêt \carreau\ 12-14 (ou 18-19)\\
+		3\trefle &&&& RAS (mais rallonge la couleur au palier de 3)\\
+		3\carreau &&&& 15+ 4441 singletion \coeur\\
+		3\coeur &&&& 3\coeur 15-17\\
+		3SA &&&& Arrêt \carreau\ 15-17 (donc singleton \coeur)\\
+		\end{tabular}\\\\
+			
+		\begin{tabular}{cccc|l}
+		1\trefle & - & 1\coeur & - &\\
+		1\pique & - & 2\carreau & - & \\
+		2\coeur & - & 3\carreau & - &\\
+		3\coeur &&&& 3\coeur\ sans l'arrêt \carreau\\
+		3\pique &&&& 2\coeur\ sans l'arrêt \carreau\\
+		3SA &&&& 3\coeur\ avec l'arrêt \carreau\\
+		\end{tabular}\\\\
 	
 		\SSection{Troisième forcing}
 		\begin{tabular}{cccc|l}
@@ -586,20 +621,10 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 		\begin{tabular}{cccc|l}
 		1\trefle & - & 1\coeur & - &\\
 		2\trefle & - & 2\carreau & - & Troisième forcing\\
-		2\coeur & - & 2SA && Relais propositionnel (et vérifiant le fit)\\
+		2\coeur & - & 2SA && Relais forcing (et vérifiant le fit)\\
 		&& 3\coeur &&Chelemisant\\
 		\end{tabular}\\
 		De même sur les autres séquences\\
-
-		\SSection{2SA Modérateur}
-		Joué sur les séquences 1\trefle/\carreau\ 1\coeur/\pique,  mais pas 1\trefle/\carreau\ 1SA\\
-
-		\SSection{1\trefle/\carreau\ 1Majeur\ 3SA}
-		\begin{tabular}{cccc|l}
-		1\trefle & - & 1\coeur/1\pique & - &\\
-		3SA &&&& 18-19 régulier avec le fit \coeur/\pique\ (5422, 4432, 4333)\\
-		4\coeur/4\pique &&&& 6\trefle\ et 4\coeur/\pique\ trop faible pour dire 4\trefle\\
-		\end{tabular}\\\\
 
 		\SSection{1\trefle/\carreau\ 1\coeur\ 1\pique\ 1SA}
 		\begin{tabular}{cccc|l}
@@ -652,16 +677,20 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 
 		\begin{tabular}{cccc|l}
 		1\trefle & 1\carreau & X & - & Texas 4-5\coeur\\
-		1\coeur &&&& 3\coeur\ sans l'arrêt (Ne dénie pas 4\pique)\\
-		1\pique &&&& 4\pique\ sans l'arrêt ni 3\coeur\\
-		1SA &&&& Peut cacher 4\pique\ ou 3\coeur\ avec l'arrêt \carreau\\
-		\end{tabular}\\\\
+		1\coeur &&&& 12-14 ; 3\coeur\ sans l'arrêt (Ne dénie pas 4\pique)\\
+		1\pique &&&& 4\pique\ sans 3\coeur\ (avec ou sans l'arrêt \carreau)\\
+		1SA &&&& 12-14 ; Peut cacher 3\coeur\ avec l'arrêt \carreau\\
+		\end{tabular}\\
+		
+		Si la place le permet on continue en double-deux sur les enchères de 1\coeur\ et 1SA\\
 
 		\begin{tabular}{cccc|l}
 		1\trefle & 1\coeur & X & - & Texas 4-5\pique\\
-		1\pique &&&& 3\pique\ sans l'arrêt\\
-		1SA &&&& Peut cacher 3\pique\ avec l'arrêt \coeur\\
-		\end{tabular}\\\\
+		1\pique &&&& 12-14 ; 3\pique\ sans l'arrêt\\
+		1SA &&&& 12-14 ; Peut cacher 3\pique\ avec l'arrêt \coeur\\
+		\end{tabular}\\
+
+		Si la place le permet on continue en double-deux sur les enchères de 1\pique\ et 1SA\\
 		
 		\SSection{Rodrigue}
 		\begin{tabular}{cccc|l}
@@ -675,6 +704,50 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 		&& 2\carreau && 8-10 ; 5\coeur\ (Rodrigue)\\
 		&& 3\carreau && Barrage\\
 		\end{tabular}\\\\
+
+\newpage
+		\SSection{2SA Good Bad}
+		On joue 2SA Good-Bad dans toutes les séquence où
+		\begin{itemize}
+		\item Le n°1 ouvre au palier de 1 (possible aussi en majeur)
+		\item Le n°3 fait une enchère au palier de 1 (ou X)
+		\item Le n°4 fait une enchère au palier de 2\\
+		\end{itemize}
+		
+		\begin{tabular}{cccc|l}
+		1\carreau & Passe/1\coeur & 1\pique/X & 2\coeur &\\
+		2SA &&&& 18-19 régulier OU 12-14 Unicolore OU 12-14 Bicolore mineur\\
+		3\trefle &&&& 15-17 ; Bicolore\\
+		3\carreau &&&& 15-17 ; Unicolore\\
+		\end{tabular}\\\\
+		
+		\begin{tabular}{cccc|l}
+		1\carreau & Passe/1\coeur & 1\pique/X & 2\coeur &\\
+		2SA & - & 3\trefle && Pour jouer en face d'un bicolore mineur\\
+		&& 3\carreau && Pour jouer en face d'une première zone\\
+		&& Autre && FM\\
+		\end{tabular}\\\\
+		
+		\begin{tabular}{cccc|l}
+		1\carreau & Passe/1\coeur & 1\pique/X & 2\coeur &\\
+		2SA & - & 3\trefle & - &\\
+		Passe &&&& 12-14 ; Bicolore mineur\\
+		3\carreau &&&& 12-14 ; Unicolore mineur\\
+		3\coeur &&&& 18-19 régulier sans l'arrêt \coeur\\
+		3SA &&&& 18-19 régulier avec l'arrêt \coeur\\
+		\end{tabular}\\\\
+		
+		NotaBene: fonctionne également sur ouverture majeur.\\
+		\begin{tabular}{cccc|l}
+		1\coeur & Passe/1\pique & 1SA/X & 2\pique &\\
+		2SA & - & 3\trefle & - &\\
+		Passe &&&& 12-14 ; Bicolore \coeur/\trefle\\
+		3\carreau &&&& 12-14 ; Bicolore \coeur/\carreau\\
+		3\coeur &&&& 12-14 ; Unicolore \coeur\\
+		3\pique &&&& 18-19 régulier sans l'arrêt \pique\\
+		3SA &&&& 18-19 régulier avec l'arrêt \pique\\
+		\end{tabular}\\\\
+		
 
 \Chap{Interventions \& Défenses}
 	\Section{Sur 1SA Fort}
@@ -870,90 +943,100 @@ La rectification du Texas est fittée par 4 et obligatoire par paire.\\
 
 \newpage
 	\Section{Séquences à 4}
-	\begin{itemize}
-	\item 1\trefle\ Passe 1\pique\ 1SA = 16-18 régulier
-	\item Passe 1\trefle\ Passe 1\pique\ 1SA = 6\carreau\ 4\coeur\\
-
-	\item 1\trefle\ 1\pique\ Passe 2\trefle\ X = Demande l'entame (car la couleur n'a pas été promis 5$^{ème}$)
-	\item 1\coeur\ 1\pique\ Passe 2\coeur\ X = Demande une autre entame (car la couleur a été promise 5$^{ème}$)\\
-
-	\item 1\carreau\ Passe 1\coeur\ X XX = 3\coeur\ dans une main positive
-	\item 1\carreau\ Passe 1\coeur\ 1\pique\ X = 3\coeur\ dans une main positive
-
-	\item 1\coeur\ Passe 2\coeur\ 2\pique\ X = Punitif
-	\item 1\coeur\ Passe 2\coeur\ 3\trefle\ X = Punitif (3\carreau\ sera d'essai généralisé)
-	\item 1\coeur\ Passe 2\coeur\ 3\carreau\ X = Enchère d'essai (Car pas manque de place)\\
-
-	\item 1\pique\ X 2\pique\ 2SA = Naturel
-	\item 1\pique\ X 2\pique\ X = D'appel (pour les mineures)
-	\item 1\pique\ Passe 2\pique\ X Passe 2SA = Mini Cuebid
-	\item 1\pique\ Passe 2\pique\ Passe Passe X Passe 3\trefle/\carreau/\coeur\ = 5 cartes
-	\item 1\pique\ Passe 2\pique\ Passe Passe X Passe 2SA = Baron\\
-
-	\item 1\coeur\ 1SA Passe Passe X = Du jeu et 6\coeur/4\pique
-	\item 1\trefle\ 1SA Passe Passe X = Appel 5431 court à \carreau\ (relais à 2\carreau\ nomme ta majeur)\\
-
-	\item 1\pique\ Passe 1SA 2\carreau\ X = Appel
-	\item 1\carreau\ Passe 1SA 2\pique\ X = Appel\\
-
-	\item 1\pique\ Passe Passe X 2\pique\ X = Appel
-	\item 1\pique\ Passe Passe X 2\carreau\ X = Punitif (Car deux couleurs nommées)
-	\item 1\pique\ Passe Passe 2\trefle\ 2\pique\ X = Appel
-	\item 1\pique\ Passe Passe 2\trefle\ 2\carreau\ X = Punitif (Car deux couleurs nommées)
-	\item 1\carreau\ Passe 1SA X 2\carreau\ X = Appel
-	\item 1\carreau\ Passe 1\coeur\ X 2\carreau\ X = Punitif (Car deux couleurs nommées)
-	\item 1\carreau\ Passe 1SA 2\pique\ 3\carreau\ X = Appel
-	\item 1\carreau\ Passe 1SA 2\pique\ 3\trefle\ X = Punitif (Car deux couleurs nommées)\\
-
-	\item 1\coeur\ Passe 1\pique\ Passe 2\coeur\ X = Appel
-	\item 1\coeur\ Passe 1SA Passe 2\coeur\ X = Punitif
-	\item 1\coeur\ Passe 1SA Passe 2\trefle\ X  = Appel
-	\item 1\coeur\ Passe 1SA Passe 2\trefle\ Passe 2\coeur\ Passe Passe X  = Punitif\\
-
-	\item 1\carreau\ Passe 1\coeur\ 2\coeur\ X = Appel
-	\item 1\carreau\ Passe 1\coeur\ 2\coeur\ Passe Passe X = Appel\\
-
-	\item 1\coeur\ 3\pique\ 4SA = BW \coeur
-	\item 1\coeur\ 4\carreau\ 4SA = BW \coeur
-	\item 1\pique\ 4\coeur\ 4SA = BW \pique
-	\item 1\coeur\ 4\pique\ 4SA = Bicolore mineure ou beau fit coeur\\
+		\SSection{Contre \& Réponses}
+		\begin{itemize}
+		\item 1\pique\ X Passe 2SA = 8-10 avec 4\coeur\\
+		
+		\item 1\trefle\ 1\pique\ Passe 2\trefle\ X = Demande l'entame (car la couleur n'a pas été promis 5$^{ème}$)
+		\item 1\coeur\ 1\pique\ Passe 2\coeur\ X = Demande une autre entame (car la couleur a été promise 5$^{ème}$)\\
 	
-	\item 1\trefle\ 1\coeur\ Passe 2\coeur\ X Passe 2SA = Pour les mineures
-	\item 1\trefle\ 2\coeur\ Passe Passe X Passe 2SA = Pour les mineures\\
+		\item 1\carreau\ Passe 1\coeur\ X XX = 3\coeur\ dans une main positive
+		\item 1\carreau\ Passe 1\coeur\ 1\pique\ X = 3\coeur\ dans une main positive
+	
+		\item 1\coeur\ Passe 2\coeur\ 2\pique\ X = Punitif
+		\item 1\coeur\ Passe 2\coeur\ 3\trefle\ X = Punitif (3\carreau\ sera d'essai généralisé)
+		\item 1\coeur\ Passe 2\coeur\ 3\carreau\ X = Enchère d'essai (Car manque de place)\\
+	
+		\item 1\pique\ X 2\pique\ 2SA = Naturel
+		\item 1\pique\ X 2\pique\ X = D'appel (pour les mineures)
+		\item 1\pique\ Passe 2\pique\ X Passe 2SA = Mini Cuebid
+		\item 1\pique\ Passe 2\pique\ Passe Passe X Passe 3\trefle/\carreau/\coeur\ = 5 cartes
+		\item 1\pique\ Passe 2\pique\ Passe Passe X Passe 2SA = Baron\\
+	
+		\item 1\coeur\ 1SA Passe Passe X = Du jeu et 6\coeur/4\pique
+		\item 1\trefle\ 1SA Passe Passe X = Appel 5431 court à \carreau\ (relais à 2\carreau\ nomme ta majeur)\\
+	
+		\item 1\pique\ Passe 1SA 2\carreau\ X = Appel
+		\item 1\carreau\ Passe 1SA 2\pique\ X = Appel\\
+	
+		\item 1\pique\ Passe Passe X 2\pique\ X = Appel
+		\item 1\pique\ Passe Passe X 2\carreau\ X = Punitif (Car deux couleurs nommées)
+		\item 1\pique\ Passe Passe 2\trefle\ 2\pique\ X = Appel
+		\item 1\pique\ Passe Passe 2\trefle\ 2\carreau\ X = Punitif (Car deux couleurs nommées)
+		\item 1\carreau\ Passe 1SA X 2\carreau\ X = Appel
+		\item 1\carreau\ Passe 1\coeur\ X 2\carreau\ X = Punitif (Car deux couleurs nommées)
+		\item 1\carreau\ Passe 1SA 2\pique\ 3\carreau\ X = Appel
+		\item 1\carreau\ Passe 1SA 2\pique\ 3\trefle\ X = Punitif (Car deux couleurs nommées)\\
+	
+		\item 1\coeur\ Passe 1\pique\ Passe 2\coeur\ X = Appel
+		\item 1\coeur\ Passe 1SA Passe 2\coeur\ X = Punitif
+		\item 1\coeur\ Passe 1SA Passe 2\trefle\ X  = Appel
+		\item 1\coeur\ Passe 1SA Passe 2\trefle\ Passe 2\coeur\ Passe Passe X  = Punitif\\
+	
+		\item 1\carreau\ Passe 1\coeur\ 2\coeur\ X = Appel
+		\item 1\carreau\ Passe 1\coeur\ 2\coeur\ Passe Passe X = Appel\\
+		
+		\item 1\trefle\ 1\coeur\ Passe 2\coeur\ X Passe 2SA = Pour les mineures
+		\item 1\trefle\ 2\coeur\ Passe Passe X Passe 2SA = Pour les mineures\\
+		
+		\item 1\trefle\ Passe 1\pique\ Passe 1SA Passe Passe X = Punitif (entame \pique)
+		\item 1\pique\ Passe 1SA Passe Passe X = Punitif (entame \pique)
+		\end{itemize}
 
-	\item 1\pique\ X Passe 2SA = 8-10 avec 4\coeur
-	\end{itemize}
+\newpage
+		\SSection{Autres}
+		\begin{itemize}
+		\item 1\trefle\ Passe 1\pique\ 1SA = 16-18 régulier
+		\item Passe 1\trefle\ Passe 1\pique\ 1SA = 6\carreau\ 4\coeur\\
+	
+		\item 1\pique\ Passe 2\pique\ 2SA = Bicolore mineur
+		\item 1\pique\ Passe 2\pique\ 4\trefle/\carreau\ = Bicolore \trefle/\carreau\ et \coeur\\
+	
+		\item 1\coeur\ 3\pique\ 4SA = BW \coeur
+		\item 1\coeur\ 4\carreau\ 4SA = BW \coeur
+		\item 1\pique\ 4\coeur\ 4SA = BW \pique
+		\item 1\coeur\ 4\pique\ 4SA = Bicolore mineure ou beau fit coeur\\
+		\end{itemize}
 
 \Chap{Nota bene}
-	\Section{Blackwood et contrôle}
+	\Section{Blackwood}
 	\begin{itemize}
 	\item Blackwood 5 clés 41/30
 	\item Blackwood d'exclusions 0, 1, 1+D,2,2+D, 3
 	\item En cas d'intervention,  C0p1 (Contre = 30,  Passe = 41)\\
 	\end{itemize}
+	
+	Sur la collante (demande à la dame), la règle générale est:
+	\begin{itemize}
+	\item 5 de l'atout (ou 5SA si 5 de l'atout n'est pas possible) = Pas la dame
+	\item 6 de l'atout = La dame sans roi (ou un roi non annoncable)
+	\item 6 d'une couleur = La dame avec le roi de la couleur nommée
+	\item 5SA (si disponible) = La dame avec 2 rois\\
+	\end{itemize}
 
+	Sauf:
+	\begin{itemize}
+	\item 5\coeur/5\pique\ sur une collante à l'atout mineur = La dame avec le roi de \coeur/\pique
+	\item 5\pique\ sur une collante à l'atout coeur = La dame avec le roi de \pique
+	\item 5\coeur\ sur une collante à l'atout pique = La dame SANS roi\\\\
+	\end{itemize}
+	
+	\Section{Anti-contrôle}
 	Dans une séquence chelemisante,  lorsqu'un contrôle est sauté,  le prochain contrôle promet la couleur sautée (mais ne promet pas forcément le contrôle nommé):\\
 	\begin{tabular}{cccc|l}
 	1\pique & -  & 2\trefle & - &\\
 	2\pique & - & 3\pique & - &\\
 	4\carreau & - & 4\coeur && 4\coeur\ = Contrôle \trefle\ avec ou sans le contrôle \coeur\\
-	\end{tabular}\\\\
-
-	\Section{Enchère d'essai}
-	\begin{tabular}{cccc|l}
-	1\pique & -  & 2\pique & - &\\
-	2SA & - & 3\trefle/3\carreau/3\coeur && Maximum,  un gros honneur\\
-	&& 3\pique && Minimum\\
-	&& 4\trefle/4\carreau/4\coeur && Maximum,  une courte\\
-	\end{tabular}\\
-	Les réponses sont les mêmes sur 1\trefle/\carreau\ 1\pique\ 2\pique\ 2SA\\
-
-	\begin{tabular}{cccc|l}
-	1\pique & -  & 2\pique & - &\\
-	3\trefle & - & 3\carreau/3\coeur && Une force\\
-	&& 3\pique && Minimum\\
-	&& 4\trefle && Un fit par 4 cartes\\
-	&& 4\carreau/4\coeur && Maximum,  une courte\\
 	\end{tabular}\\\\
 
 	\Section{Flanc}
